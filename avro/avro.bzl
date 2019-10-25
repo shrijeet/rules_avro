@@ -15,7 +15,6 @@ def avro_repositories():
   native.maven_jar(
       name = "org_apache_avro_avro_tools",
       artifact = "org.apache.avro:avro-tools:1.9.1",
-      sha256 = "9aa4a624d3719dd3962699b70b52cd2521c2762bf471a95f25eaa6d2ddc2e334"
   )
   native.bind(
       name = 'io_bazel_rules_avro/dependency/avro_tools',
@@ -26,7 +25,6 @@ def avro_repositories():
   native.maven_jar(
       name = "org_apache_avro_avro",
       artifact = "org.apache.avro:avro:1.9.1",
-      sha256 = "eda42e4c3cec917f3109c72d2006c118f6bf8bc5dd3585880ada31a0355f410a"
   )
   native.bind(
       name = 'io_bazel_rules_avro/dependency/avro',
